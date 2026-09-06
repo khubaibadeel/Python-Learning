@@ -4,9 +4,6 @@
     # --> Each piece of Data is known as Item/Element.
 
 
-# List Creation:-
-fruits =["Mango", "StrawBerry", "Grapes", "Apple", "Banana"] # List created
-print(fruits)   #  printed the list
 
 
 # List Properties:-
