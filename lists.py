@@ -20,8 +20,11 @@ print(list1)   #  printed the list
 #               The order in which you add items to the list is preserved. Each time u append a new item it gets its new order/index automatically.
 
 
+
 # List Operations:-
 #    1. Insertion: U can insert an item at different positions in a list using insert() function.
+
 list2 =["Khubaib", "Ahmed", "Ali", "Usman", "Bilal"]
 list2.insert(0,"Sample")
 print(list2) # ['Sample', 'Khubaib', 'Ahmed', 'Ali', 'Usman', 'Bilal']
+
