@@ -23,3 +23,12 @@ for i in range(5):
         zernum+=1
 
 print("There are",posnum,"Positive Numbers,",negnum,"Negative Numbers, and",zernum,"Zero Numbers in the list.")
+
+evenum=0
+oddnum=0
+for i in range(5):
+    if numbers[i]%2==0:
+        evenum+=1
+    else:
+        oddnum+=1
+print("Moreover, there are",evenum,"Even Numbers and",oddnum,"Odd Numbers in the list.")
