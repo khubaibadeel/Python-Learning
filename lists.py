@@ -5,4 +5,5 @@
 
 # List Creation:-
 list =["Khubaib", "Ahmed", "Ali", "Usman", "Bilal"] # List created
-print(list)   # List Printed on the Output Screen
+print(list)   #  printed the list
+
