@@ -26,9 +26,18 @@ print("There are",posnum,"Positive Numbers,",negnum,"Negative Numbers, and",zern
 
 evenum=0
 oddnum=0
+nothing=0
 for i in range(5):
-    if numbers[i]%2==0:
+    if (numbers[i]%2==0 and numbers[i]!=0):
         evenum+=1
-    else:
+    elif(numbers[i]%2!=0 and numbers[i]!=0):
         oddnum+=1
+    else:
+        nothing+=nothing
+        
 print("Moreover, there are",evenum,"Even Numbers and",oddnum,"Odd Numbers in the list.")
+
+others=numbers[1]
+for i in range(10):
+    if numbers[0]>others:
+        print(numbers[0],"is Largest")
