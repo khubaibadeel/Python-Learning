@@ -5,8 +5,8 @@
 
 
 # List Creation:-
-list =["Khubaib", "Ahmed", "Ali", "Usman", "Bilal"] # List created
-print(list)   #  printed the list
+list1 =["Khubaib", "Ahmed", "Ali", "Usman", "Bilal"] # List created
+print(list1)   #  printed the list
 
 
 # List Properties:-
@@ -22,3 +22,6 @@ print(list)   #  printed the list
 
 # List Operations:-
 #    1. Insertion: U can insert an item at different positions in a list using insert() function.
+list2 =["Khubaib", "Ahmed", "Ali", "Usman", "Bilal"]
+list2.insert(0,"Sample")
+print(list2) # ['Sample', 'Khubaib', 'Ahmed', 'Ali', 'Usman', 'Bilal']
