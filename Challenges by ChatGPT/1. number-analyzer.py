@@ -37,7 +37,16 @@ for i in range(5):
         
 print("Moreover, there are",evenum,"Even Numbers and",oddnum,"Odd Numbers in the list.")
 
-others=numbers[1]
-for i in range(10):
-    if numbers[0]>others:
-        print(numbers[0],"is Largest")
+largest = numbers[0]
+for number in numbers[1:]:
+    if number > largest:
+        largest = number
+
+print(largest, "is Largest")
+
+smallest = numbers[0]
+for number in numbers[1:]:
+    if number < smallest:
+        smallest=number
+
+print(smallest, "is Smallest")
