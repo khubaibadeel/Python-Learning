@@ -3,39 +3,43 @@
 # ⭐⭐
 
 
-numbers=[]
-for i in range(5):
-    number=int(input("Enter a number: "))
+numbers = []
+
+for i in range(10):
+    number = int(input("Enter a number: "))
     numbers.append(number)
+
 print(numbers)
 
-posnum=0
-negnum=0
-zernum=0
+posnum = 0
+negnum = 0
+zernum = 0
 
-for i in range(5):
-    if numbers[i] > 0:
-        posnum+=1
-
-    elif numbers[i] < 0:
-        negnum+=1
+for number in numbers:
+    if number > 0:
+        posnum += 1
+    elif number < 0:
+        negnum += 1
     else:
-        zernum+=1
+        zernum += 1
 
-print("There are",posnum,"Positive Numbers,",negnum,"Negative Numbers, and",zernum,"Zero Numbers in the list.")
+print(
+    "There are", posnum,
+    "positive numbers,", negnum,
+    "negative numbers, and", zernum,
+    "zero numbers in the list."
+)
 
-evenum=0
-oddnum=0
-nothing=0
-for i in range(5):
-    if (numbers[i]%2==0 ):
-        evenum+=1
-    elif(numbers[i]%2!=0 ):
-        oddnum+=1
+evenum = 0
+oddnum = 0
+
+for number in numbers:
+    if number % 2 == 0:
+        evenum += 1
     else:
-        nothing+=nothing
-        
-print("Moreover, there are",evenum,"Even Numbers and",oddnum,"Odd Numbers in the list.")
+        oddnum += 1
+
+print("Moreover, there are",evenum,"even numbers and",oddnum,"odd numbers in the list.")
 
 largest = numbers[0]
 for number in numbers[1:]:
@@ -47,6 +51,6 @@ print(largest, "is Largest")
 smallest = numbers[0]
 for number in numbers[1:]:
     if number < smallest:
-        smallest=number
+        smallest = number
 
 print(smallest, "is Smallest")
