@@ -28,9 +28,9 @@ evenum=0
 oddnum=0
 nothing=0
 for i in range(5):
-    if (numbers[i]%2==0 and numbers[i]!=0):
+    if (numbers[i]%2==0 ):
         evenum+=1
-    elif(numbers[i]%2!=0 and numbers[i]!=0):
+    elif(numbers[i]%2!=0 ):
         oddnum+=1
     else:
         nothing+=nothing
